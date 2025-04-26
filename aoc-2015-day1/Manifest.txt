@@ -1,8 +1,0 @@
-.autotest
-History.txt
-Manifest.txt
-README.txt
-Rakefile
-bin/aoc/2015/day1
-lib/aoc/2015/day1.rb
-test/test_aoc/2015/day1.rb
