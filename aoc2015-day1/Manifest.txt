@@ -1,0 +1,8 @@
+.autotest
+History.txt
+Manifest.txt
+README.txt
+Rakefile
+bin/aoc2015/day1
+lib/aoc2015/day1.rb
+test/test_aoc2015/day1.rb
