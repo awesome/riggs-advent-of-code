@@ -1,30 +1,41 @@
 = aoc-2015-day1
 
-home  :: FIX (url)
-code  :: FIX (url)
-rdoc  :: FIX (url)
-bugs  :: FIX (url)
-... etc ...
+home  :: https://github.com/username/aoc-2015-day1
+code  :: https://github.com/username/aoc-2015-day1
+rdoc  :: https://username.github.io/aoc-2015-day1
+bugs  :: https://github.com/username/aoc-2015-day1/issues
 
 == DESCRIPTION:
 
-FIX (describe your package)
+Advent of Code 2015 Day 1 solution - A Ruby implementation for solving the floor navigation puzzle.
 
 == FEATURES/PROBLEMS:
 
-* FIX (list of features or problems)
+* Solves the elevator floor calculation problem
+* Handles parentheses counting for floor movement
+* Identifies first basement entry position
+* Includes test suite for validation
 
 == SYNOPSIS:
 
-  FIX (code sample of usage)
+  require 'aoc_2015_day1'
+  
+  calculator = AOC2015::Day1.new
+  result = calculator.calculate_floor("(())")
+  puts result  # Output: 0
+  
+  basement_pos = calculator.find_basement_position("())")
+  puts basement_pos  # Output: 3
 
 == REQUIREMENTS:
 
-* FIX (list of requirements)
+* Ruby >= 3.0.0
+* RSpec for testing
+* Rake for build tasks
 
 == INSTALL:
 
-* FIX (sudo gem install, anything else)
+* gem install aoc-2015-day1
 
 == DEVELOPERS:
 
@@ -39,7 +50,7 @@ and generate the RDoc.
 
 (The MIT License)
 
-Copyright (c) 2025 FIX
+Copyright (c) 2025 Your Name
 
 Permission is hereby granted, free of charge, to any person obtaining
 a copy of this software and associated documentation files (the
