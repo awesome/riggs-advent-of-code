@@ -37,5 +37,5 @@ wget https://raw.githubusercontent.com/github/gitignore/main/Ruby.gitignore -O .
 https://x.com/i/grok/share/xWwcx3Skn6sAJwcSQaiDBZ6hU
 
 ```shell
-hoe gem aoc-2015-day1
+sow aoc-2015-day1
 ```
