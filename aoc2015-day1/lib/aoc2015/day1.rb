@@ -4,7 +4,7 @@ class Aoc2015::Day1
   VERSION = "1.0.0"
 
   def self.parse_input(input)
-    return false
+    input.each_char.inject({}) {|h,c| h[c] = input.count(c); h}
   end
 
 end
