@@ -37,5 +37,12 @@ wget https://raw.githubusercontent.com/github/gitignore/main/Ruby.gitignore -O .
 https://x.com/i/grok/share/xWwcx3Skn6sAJwcSQaiDBZ6hU
 
 ```shell
-sow aoc-2015-day1
+sow aoc2015-day1
+```
+
+### Run Code
+
+```shell
+cd aoc2015-day1
+rake test
 ```
