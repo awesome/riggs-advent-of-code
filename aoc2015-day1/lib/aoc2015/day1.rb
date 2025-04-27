@@ -20,4 +20,8 @@ module Aoc2015::Day1
     parse_level(hash)
   end
 
+  def entered_basement_at(string_input)
+    return false
+  end
+
 end

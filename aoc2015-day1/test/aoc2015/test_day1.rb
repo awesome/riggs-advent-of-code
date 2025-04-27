@@ -70,4 +70,19 @@ class TestAoc2015::TestDay1 < Minitest::Test
     assert_equal exp, act
   end
 
+  # https://adventofcode.com/2015/day/1#part2
+  def test_enter_basement
+    # Test case 1: ) causes basement entry at position 1
+    input = ")"
+    exp = 1
+    act = Aoc2015::Day1.entered_basement_at(input)
+    assert_equal exp, act
+
+    # Test case 2: ()()) causes basement entry at position 5
+    input = "()())"
+    exp = 5
+    act = Aoc2015::Day1.entered_basement_at(input)
+    assert_equal exp, act
+  end
+
 end
