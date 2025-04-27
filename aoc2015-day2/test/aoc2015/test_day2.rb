@@ -90,4 +90,11 @@ class TestAoc2015::TestDay2 < Minitest::Test
     assert_equal exp, act
   end
 
+  def test_ribbon_runner
+    input = "2x3x4\n1x1x10"
+    exp = 34 + 14
+    act = Aoc2015::Day2.ribbon_runner(input)
+    assert_equal exp, act
+  end
+
 end

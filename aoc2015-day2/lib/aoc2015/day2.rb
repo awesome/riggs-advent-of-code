@@ -41,4 +41,8 @@ module Aoc2015::Day2
   def ribbon(input_string)
     ribbon_wrap(input_string) + bow(input_string)
   end
+
+  def ribbon_runner(input_string)
+    return false
+  end
 end
