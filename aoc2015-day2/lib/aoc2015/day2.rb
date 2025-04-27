@@ -30,9 +30,14 @@ module Aoc2015::Day2
 
   def ribbon(input_string)
     return false
+  def ribbon_wrap(input_string)
   end
 
   def bow(input_string)
+    return false
+  end
+
+  def ribbon(input_string)
     return false
   end
 end

@@ -49,16 +49,16 @@ class TestAoc2015::TestDay2 < Minitest::Test
 
   end
 
-  def test_ribbon
+  def test_ribbon_wrap
     input = "2x3x4"
     exp = 10
-    act = Aoc2015::Day2.ribbon(input)
+    act = Aoc2015::Day2.ribbon_wrap(input)
     assert_equal exp, act
 
 
     input = "1x1x10"
     exp = 4
-    act = Aoc2015::Day2.ribbon(input)
+    act = Aoc2015::Day2.ribbon_wrap(input)
     assert_equal exp, act
 
   end
@@ -75,6 +75,19 @@ class TestAoc2015::TestDay2 < Minitest::Test
     act = Aoc2015::Day2.bow(input)
     assert_equal exp, act
 
+  end
+
+  def test_ribbon
+    input = "2x3x4"
+    exp = 34
+    act = Aoc2015::Day2.ribbon(input)
+    assert_equal exp, act
+
+
+    input = "1x1x10"
+    exp = 14
+    act = Aoc2015::Day2.ribbon(input)
+    assert_equal exp, act
   end
 
 end
