@@ -23,4 +23,8 @@ module Aoc2015::Day2
     e = extra_paper(input_string)
     b + e
   end
+
+  def runner(input_string)
+    return false
+  end
 end
