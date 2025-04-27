@@ -5,6 +5,8 @@ class Aoc2015::Day1
 
   def self.parse_input(input)
     input.each_char.inject({}) {|h,c| h[c] = input.count(c); h}
+  def self.parse_input(string_input)
+    string_input.each_char.inject({}) {|h,c| h[c] = string_input.count(c); h}
   end
 
 end
