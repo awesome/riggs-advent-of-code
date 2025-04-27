@@ -78,3 +78,4 @@ irb(main):003> Aoc2015::Day1.entered_basement_at(input)
 #### aoc2015-day1
 - `assert_equal` disregards key order; default behavior
 - only need to add email to Rakefile in hoe scaffold to run tests; still requires `FIX` in README for gen gemspec
+- _"In Ruby, the `Hash#key` method returns **the first key** that matches the given value."_
