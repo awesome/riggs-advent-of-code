@@ -6,7 +6,7 @@
 
 My first idea was to use a Rails/React/Postgres-stack to systematically solve each problem to  showcase my familiarity with the tech in the job description. However, considering two dev mantras I use as guidelines, YAGNI and DTSTTCPW, I decided a more minimal approach was appropriate.
 
-I need a conventional approach challenge, so I went with my second idea: using ruby hoe gem which creates a great starting point with a module and tests, even if not ultimately used as a gem.
+I need a conventional approach to challenge, so I went with my second idea: using ruby hoe gem which creates a great starting point with a module and tests, even if not ultimately used as a gem.
 
 ---
 
@@ -77,3 +77,4 @@ irb(main):003> Aoc2015::Day1.entered_basement_at(input)
 
 #### aoc2015-day1
 - `assert_equal` disregards key order; default behavior
+- only need to add email to Rakefile in hoe scaffold to run tests; still requires `FIX` in README for gen gemspec
