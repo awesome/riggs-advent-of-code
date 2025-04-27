@@ -136,6 +136,8 @@ irb(main):008> Aoc2015::Day2.ribbon_runner(input)
 - `assert_equal` disregards key order; default behavior
 - only need to add email to Rakefile in hoe scaffold to run tests; still requires `FIX` in README for gen gemspec
 - _"In Ruby, the `Hash#key` method returns **the first key** that matches the given value."_
+
+#### aoc2015-day2
 - `array#inject` => `array.inject(:*) # Multiplies all elements (i.e., a * b * c)`
 
 ---
