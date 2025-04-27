@@ -61,4 +61,13 @@ class TestAoc2015::TestDay1 < Minitest::Test
     assert_equal exp, act
   end
 
+  def test_solve
+    input = "(())"
+    exp = 0
+
+    act = Aoc2015::Day1.solve(input)
+
+    assert_equal exp, act
+  end
+
 end
