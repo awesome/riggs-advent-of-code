@@ -25,6 +25,6 @@ module Aoc2015::Day2
   end
 
   def runner(input_string)
-    return false
+    input_string.lines.map {|l| solve(l.strip) }.sum
   end
 end
