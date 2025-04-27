@@ -16,7 +16,8 @@ module Aoc2015::Day1
   end
 
   def solve(input)
-    return false
+    hash = parse_input(input)
+    parse_level(hash)
   end
 
 end
