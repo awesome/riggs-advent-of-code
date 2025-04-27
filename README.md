@@ -47,6 +47,7 @@ cd aoc2015-day1
 rake test
 ```
 
+Part 1
 ```
 irb
 irb(main):001> require_relative 'lib/aoc2015/day1'
@@ -54,8 +55,20 @@ irb(main):001> require_relative 'lib/aoc2015/day1'
 irb(main):002> input = "()(((()))(...
 => 
 "()(((()))(...
-irb(main):003> act = Aoc2015::Day1.solve(input)
+irb(main):003> Aoc2015::Day1.solve(input)
 => 123
+```
+
+Part 2
+```
+irb
+irb(main):001> require_relative 'lib/aoc2015/day1'
+=> true
+irb(main):002> input = "()(((()))(...
+=> 
+"()(((()))(...
+irb(main):003> Aoc2015::Day1.entered_basement_at(input)
+=> 456
 ```
 
 ---
