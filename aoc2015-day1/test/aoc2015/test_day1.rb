@@ -51,4 +51,14 @@ class TestAoc2015::TestDay1 < Minitest::Test
     assert_equal exp, act
   end
 
+  def test_parse_level
+
+    input = {"(" => 1, ")" => 2}
+    exp = -1
+
+    act = Aoc2015::Day1.parse_level(input)
+
+    assert_equal exp, act
+  end
+
 end
