@@ -8,7 +8,9 @@ class Aoc2015::Day1
   end
 
   def self.parse_level(hash_input)
-    return false
+    up_levels = hash_input.fetch('(', 0)
+    down_levels = hash_input.fetch(')', 0)
+    up_levels - down_levels
   end
 
 end
