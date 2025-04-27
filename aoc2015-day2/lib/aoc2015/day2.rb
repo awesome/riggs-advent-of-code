@@ -27,4 +27,12 @@ module Aoc2015::Day2
   def runner(input_string)
     input_string.lines.map {|l| solve(l.strip) }.sum
   end
+
+  def ribbon(input_string)
+    return false
+  end
+
+  def bow(input_string)
+    return false
+  end
 end
