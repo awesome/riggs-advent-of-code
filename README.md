@@ -46,3 +46,10 @@ sow aoc2015-day1
 cd aoc2015-day1
 rake test
 ```
+
+---
+
+### Learned
+
+#### aoc2015-day1
+- `assert_equal` disregards key order; default behavior
