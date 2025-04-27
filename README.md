@@ -42,12 +42,14 @@ sow aoc2015-day1
 
 ### Run Code
 
+#### Day 1
+
 ```shell
 cd aoc2015-day1
 rake test
 ```
 
-Part 1
+Day 1 - Part 1
 ```
 irb
 irb(main):001> require_relative 'lib/aoc2015/day1'
@@ -59,7 +61,7 @@ irb(main):003> Aoc2015::Day1.solve(input)
 => 123
 ```
 
-Part 2
+Day 1 - Part 2
 ```
 irb
 irb(main):001> require_relative 'lib/aoc2015/day1'
@@ -71,6 +73,28 @@ irb(main):003> Aoc2015::Day1.entered_basement_at(input)
 => 456
 ```
 
+#### Day 2
+
+```shell
+cd aoc2015-day2
+rake test
+```
+
+Day 2 - Part 1
+```
+irb
+irb(main):001> require_relative 'lib/aoc2015/day2'
+=> true
+irb(main):002" input = "20x3x11
+irb(main):003" 15x27x5
+irb(main):004" 6x29x7
+irb(main):005" 30x15x9
+irb(main):006" 19x29x21
+irb(main):007> 10x4x15"
+=> "20x3x11\n15x27x5\n6x29x7\n30x15x9\n19x29x21\n10x4x15"
+irb(main):008> Aoc2015::Day2.runner(input)
+=> 8746
+```
 ---
 
 ### Learned
