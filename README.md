@@ -47,6 +47,17 @@ cd aoc2015-day1
 rake test
 ```
 
+```
+irb
+irb(main):001> require_relative 'lib/aoc2015/day1'
+=> true
+irb(main):002> input = "()(((()))(...
+=> 
+"()(((()))(...
+irb(main):003> act = Aoc2015::Day1.solve(input)
+=> 123
+```
+
 ---
 
 ### Learned
