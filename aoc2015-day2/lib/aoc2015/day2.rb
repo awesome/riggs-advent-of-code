@@ -28,16 +28,17 @@ module Aoc2015::Day2
     input_string.lines.map {|l| solve(l.strip) }.sum
   end
 
-  def ribbon(input_string)
-    return false
   def ribbon_wrap(input_string)
+    array = input_string.split("x").map(&:to_i).sort
+    array[0]*2 + array[1]*2
   end
 
   def bow(input_string)
-    return false
+    array = input_string.split("x").map(&:to_i)
+    array.inject(:*) # Multiplies all elements (i.e., a * b * c)
   end
 
   def ribbon(input_string)
-    return false
+    ribbon_wrap(input_string) + bow(input_string)
   end
 end
