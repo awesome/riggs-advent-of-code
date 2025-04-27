@@ -43,6 +43,6 @@ module Aoc2015::Day2
   end
 
   def ribbon_runner(input_string)
-    return false
+    input_string.lines.map {|l| ribbon(l.strip)}.sum
   end
 end
